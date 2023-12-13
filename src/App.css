@@ -1,0 +1,90 @@
+*{
+  /* border: 1px solid #DDE6ED; */
+  box-sizing: border-box;
+}
+body{
+  background-color: #352F44;
+  color: #FAF0E6;
+  /* //color:#B9B4C7; */
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  height: 100vh;
+  display: flex; 
+  justify-content:center;
+  align-items: center;
+}
+.container{
+  
+  /* background-color: #5C5470; */
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 20px; */
+  border: 1px solid #B9B4C7;
+}
+h1{
+  /* background-color: #526D82; */
+  /* padding: 8px 0; */
+  color:#B9B4C7;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #B9B4C7;
+  margin-bottom: 30px;
+  
+}
+.password-input{
+  background-color: #5C5470;
+  
+  display: flex;
+  margin: 20px 0;
+  width:100%;
+  font-size: 1.2rem;
+  
+}
+.password-input input{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color: #B9B4C7;
+ 
+  padding:12px;
+  color:#352F44;
+  font-size: 1rem;
+  border: none;
+}
+.password-input button{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color: #5C5470;
+  border: none;
+  color:#FAF0E6;
+  padding:0 22px;
+}
+.password-length{
+  
+  padding:0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.password-length span{
+  color:#B9B4C7;
+ font-size: 24px;
+}
+.range{
+  
+  padding:10px;
+  accent-color: #5C5470;
+  transition: 1s ease-in-out;
+}
+
+.checkbox{
+  padding:12px;
+}
+.checkbox input{
+  accent-color: #352F44;
+  padding:22px;
+  margin: 4px 15px 0 0;
+  line-height: normal;
+  width: 20px;
+  height: 20px;
+}
